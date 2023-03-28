@@ -408,7 +408,69 @@ header
     width: 437.44px;
     height: 387.39px;
 }
-@media screen and (max-width:1176px) 
+
+/* section - six */
+.section-6
+{
+    background-color: rgb(215, 215, 110);
+    margin-top: 7em;
+    padding: 10em 0;
+}
+.sect-6-wrapper
+{
+    margin: 0 10em;
+}
+.sect-6-top-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:60px;
+}
+.sect-6-t-c-title
+{
+    font-size: 3em;
+    line-height: 1.5em;
+}
+.sect-6-t-c-description
+{
+    font-size:1.7em;
+    line-height: 1.2em;
+}
+.sect-6-bottom-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.sect-6-b-s-container
+{
+    margin-right: 2em; 
+}
+.percent-title
+{
+    font-size: 4.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(65, 65, 192);
+    margin: 1.2em 0;
+}
+.percent-title span
+{
+    font-size: .7em;
+    display: inline-block;
+    vertical-align:top;
+}
+.sect-6-b-s-c-para
+{
+    font-size: 1.2em;
+    word-spacing: .1em;
+    line-height: 1.4em;
+}
+.sect-6-b-s-c-nav a
+{
+    text-decoration: none;
+    color:rgb(60, 60, 193);
+}
+@media screen and (max-width:1183px) 
 {
     header 
     {
@@ -493,7 +555,18 @@ header
         width:407.85px;
         height:361.18px;
     }
-    
+    .sect-6-bottom-container
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .sect-6-t-c-title
+    {
+        font-size: 2.5em;
+    }
+    .sect-6-t-c-description
+    {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width:845px)
@@ -533,8 +606,13 @@ header
         width: 300px;
         height: 250px;
    }
+   .sect-6-top-container
+   {
+        grid-template-columns: 1fr;
+        grid-row-gap:1.5em ;
+   }
 }
-@media screen and (max-width:748px)
+@media screen and (max-width:751px)
 {
     .sect-2-images
     {
@@ -583,7 +661,14 @@ header
     {
         margin-top: 0;
     }
-
+    .sect-6-bottom-container
+    {
+        grid-template-columns: 1fr;
+    }
+    .sect-6-wrapper
+    {
+        margin: 0 5em;
+    }
 
     
     
@@ -620,8 +705,6 @@ header
     {
         width: 20em;
     }
-   
-   
     
     
 }
@@ -688,6 +771,10 @@ header
     {
         margin-right: 0em;
     }
+    .percent-title
+    {
+        font-size: 3.5em ;
+    }
 }
 @media screen and (max-width:340px) 
 {
@@ -741,6 +828,25 @@ header
     {
         font-size: .9em;
     }
-    
-    
+    .percent-title
+    {
+        font-size: 2.9em;
+    }
+    .sect-6-t-c-title
+    {
+        font-size: 2em;
+    }
+    .sect-6-t-c-description
+    {
+        font-size: 1.2em;
+    }
+    .sect-6-wrapper
+    {
+        margin: 0 1.5em ;
+    }
+    .section-6
+    {
+        padding: 5em 0;
+        margin-top: 5em;
+    }
 }
